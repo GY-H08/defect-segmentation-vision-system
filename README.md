@@ -51,7 +51,6 @@ Industrial defect segmentation system using custom UNet3+ASPP architecture. Real
 | 결함 픽셀 비율 | 전체 픽셀의 약 0.4%(평균) |
 | 클래스 불균형 | Hard_Object : Background = 1 : 250 |
 | 실험용 데이터 | 191쌍 (train 153 / val 38) |
-| 본 학습 데이터 | 800쌍 (train 640 / val 160) |
 
 > 세척 후 최종 검사 특성상 결함 픽셀 비율이 극히 낮은 고난이도 클래스 불균형 문제
 

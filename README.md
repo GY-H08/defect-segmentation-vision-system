@@ -48,7 +48,7 @@ Industrial defect segmentation system using custom UNet3+ASPP architecture. Real
 |------|------|
 | 이미지 타입 | 흑백 (1채널), 1200×1200 |
 | 검출 대상 클래스 | Water_Stain, Inner_Defect, Hard_Object, Background |
-| 결함 픽셀 비율 | 전체 픽셀의 약 0.4% |
+| 결함 픽셀 비율 | 전체 픽셀의 약 0.4%(평균) |
 | 클래스 불균형 | Hard_Object : Background = 1 : 250 |
 | 실험용 데이터 | 191쌍 (train 153 / val 38) |
 | 본 학습 데이터 | 800쌍 (train 640 / val 160) |

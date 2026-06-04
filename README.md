@@ -195,7 +195,7 @@ python threshold_search.py \
 ## 🛠️ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.12.0-orange)
 ![SMP](https://img.shields.io/badge/segmentation--models--pytorch-latest-green)
 ![WandB](https://img.shields.io/badge/WandB-Tracking-yellow)
 

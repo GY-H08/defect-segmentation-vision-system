@@ -84,11 +84,11 @@ Industrial defect segmentation system using custom UNet3+ASPP architecture. Real
 
 > epoch 63 이후 과적합으로 mIoU 지속 하락 (epoch 300: 0.3578)
 <p>
-  <img src="https://github.com/user-attachments/assets/062167f0-f478-464c-9f40-d4ed72c816a3" width="49%"/>
   <img src="https://github.com/user-attachments/assets/b7a7b331-50aa-4abb-8f26-3e5ebfa45c9c" width="49%"/>
-</p>
+  <img src="https://github.com/user-attachments/assets/062167f0-f478-464c-9f40-d4ed72c816a3" width="49%"/>
+  </p>
 <p>
-  <img src="https://github.com/user-attachments/assets/d48f2607-31fa-4abd-8800-33e0f817920c" width="100%"/>
+  <img src="https://github.com/user-attachments/assets/d48f2607-31fa-4abd-8800-33e0f817920c" width="70%"/>
 </p>
 
 ---

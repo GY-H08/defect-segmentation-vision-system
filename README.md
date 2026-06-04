@@ -115,11 +115,12 @@ Industrial defect segmentation system using custom UNet3+ASPP architecture. Real
 | **defect_image_FNR** | **0.000** | ✅ |
 
 <p>
-  <img src="https://github.com/user-attachments/assets/e80bf2b2-dfef-4165-83e0-57820d01e46f" width="49%"/>
   <img src="https://github.com/user-attachments/assets/85456ace-9b9e-4293-b71d-7fe146f679c7" width="49%"/>
+  <img src="https://github.com/user-attachments/assets/e80bf2b2-dfef-4165-83e0-57820d01e46f" width="49%"/>
+ 
 </p>
 <p>
-  <img src="https://github.com/user-attachments/assets/6fd3368d-cf3e-4ed8-a122-3e9f161b52fa" width="100%"/>
+  <img src="https://github.com/user-attachments/assets/6fd3368d-cf3e-4ed8-a122-3e9f161b52fa" width="70%"/>
 </p>
 
 ---

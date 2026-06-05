@@ -131,7 +131,7 @@ Industrial defect segmentation system using custom UNet3+ASPP architecture. Real
 |------|--------|--------|------|
 | mIoU_defect | **0.3929** | 0.3518 | A 우위 |
 | Hard_Object Recall | **0.4384** | 0.2608 | A 우위 |
-| defect_image_FNR | 미집계¹⁾ 실험 A 학습 스크립트에 해당 지표 집계 코드 미포함 | **0.000** | B 우위 (안전성) |
+| defect_image_FNR | 미집계 | **0.000** | B 우위 (안전성) |
 | MSCA 효과 | - | 기대 이하 | 파라미터 대비 효과 없음 |
 
 **핵심 인사이트:**

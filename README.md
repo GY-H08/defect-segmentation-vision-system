@@ -140,6 +140,27 @@ Industrial defect segmentation system using custom UNet3+ASPP architecture. Real
 - best가 epoch 63 → 이후 mIoU 지속 하락
 
 ---
+## 📈 학습 진행에 따른 예측 변화 (Experiment B)
+
+> 동일 샘플에 대한 epoch별 모델 예측 마스크 변화. 좌: 원본 / 중: GT(정답) / 우: 모델 예측
+
+**Epoch 001** — 학습 초기, 예측이 전반적으로 불안정
+![epoch_001](<img width="2400" height="800" alt="sample_00003_001epoch" src="https://github.com/user-attachments/assets/ac39c55e-ddf3-4876-a2fb-3e5faa8b1027" />
+)
+
+**Epoch 100** — 결함 영역을 점진적으로 학습
+![epoch_100](<img width="2400" height="800" alt="sample_00003_100epoch" src="https://github.com/user-attachments/assets/2c32cc92-ce8e-4912-8ba0-452ec16169d5" />
+)
+
+**Epoch 200** — 수렴 단계 진입
+![epoch_200](<img width="2400" height="800" alt="sample_00003_200epoch" src="https://github.com/user-attachments/assets/903bf465-216c-49a7-943e-57d6405b6c81" />
+)
+
+**Epoch 300** — SWA 적용 후 최종 수렴 상태
+![epoch_300](<img width="2400" height="800" alt="sample_00003_300epoch" src="https://github.com/user-attachments/assets/6c442d52-ea4f-4dc6-9482-22ce8cf14568" />
+)
+
+---
 
 ## 🏗️ 커스텀 모델 아키텍처 설계 — UNet3+ + ASPP + SWA (v3)
 

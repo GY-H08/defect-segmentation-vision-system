@@ -160,6 +160,10 @@ Industrial defect segmentation system using custom UNet3+ASPP architecture. Real
 
 <img width="800" src="https://github.com/user-attachments/assets/6c442d52-ea4f-4dc6-9482-22ce8cf14568" />
 
+> **마스크 색상 범례**
+> - 🔴 빨간색: Hard_Object (이물질)
+> - 🟢 초록색: Water_Stain (물때)
+
 ---
 
 ## 🏗️ 커스텀 모델 아키텍처 설계 — UNet3+ + ASPP + SWA (v3)

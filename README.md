@@ -82,7 +82,7 @@ Industrial defect segmentation system using custom UNet3+ASPP architecture. Real
 | Hard_Object | 0.2945 | 0.4384 | 0.4728 |
 | **mIoU_defect** | **0.3929** | - | - |
 
-> epoch 63 이후 과적합으로 mIoU 지속 하락 (epoch 300: 0.3578)
+> epoch 63 이후 mIoU 지속 하락 (epoch 300: 0.3578)
 <p>
   <img src="https://github.com/user-attachments/assets/b7a7b331-50aa-4abb-8f26-3e5ebfa45c9c" width="49%"/>
   <img src="https://github.com/user-attachments/assets/062167f0-f478-464c-9f40-d4ed72c816a3" width="49%"/>
@@ -131,13 +131,13 @@ Industrial defect segmentation system using custom UNet3+ASPP architecture. Real
 |------|--------|--------|------|
 | mIoU_defect | **0.3929** | 0.3518 | A 우위 |
 | Hard_Object Recall | **0.4384** | 0.2608 | A 우위 |
-| defect_image_FNR | 미집계 | **0.000** | B 우위 (안전성) |
+| defect_image_FNR | 미집계¹⁾ 실험 A 학습 스크립트에 해당 지표 집계 코드 미포함 | **0.000** | B 우위 (안전성) |
 | MSCA 효과 | - | 기대 이하 | 파라미터 대비 효과 없음 |
 
 **핵심 인사이트:**
-- MSCA는 파라미터 37% 증가 대비 성능 향상 없음 → 소량 데이터 환경에서 과파라미터 문제
+-  MSCA는 파라미터 37% 증가 대비 성능 향상 없음 → 소량 데이터 환경에서 val mIoU epoch 5 이후 정체, 데이터 한계로 인한 학습 정체
 - SWA는 defect_image_FNR 0 달성 → 운영 안전성 확보에 기여
-- best가 epoch 63으로 이름 → 이후 과적합 발생, early stopping 필요성 확인
+- best가 epoch 63 → 이후 mIoU 지속 하락
 
 ---
 
